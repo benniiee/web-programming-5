@@ -1,0 +1,65 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+label 
+{ 
+    display: block; 
+}
+
+span, .error 
+{ 
+    color: red; margin: 0; 
+}
+
+select, input
+{
+    border: 1px solid black;
+}
+
+table, th, td
+{
+    border: 1px solid black;
+}
+
+.container
+{
+    background-color: #fefefefe;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout
+{
+    padding: 20px;
+    max-height: 350px;
+    border: 2px solid black;
+}
+
+button.add
+{
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+a.table_edit
+{
+    padding: 0px 2px;
+    background: lightgreen;
+    color: black;
+}
+
+a.table_delete
+{
+    padding: 0px 0px;
+    background: #ee2f32;
+    color: black;
+}

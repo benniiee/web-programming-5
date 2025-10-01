@@ -1,0 +1,45 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+label 
+{ 
+    display: block; 
+}
+
+span, .error 
+{ 
+    color: red; margin: 0; 
+}
+
+select, input
+{
+    border: 1px solid black;
+}
+
+.container
+{
+    background-color: #fefefefe;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout
+{
+    padding: 20px;
+    max-height: 350px;
+    border: 2px solid black;
+}
+
+input.save
+{
+    width: 100%;
+}
